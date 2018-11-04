@@ -62,7 +62,7 @@
 .nl-form select  {
 	line-height: inherit;
 	display: inline-block;
-	color: #2a6648;
+	color: #2b302b;
 	cursor: pointer;
 	border-bottom: 2px dashed #2a6648;
 }
@@ -71,7 +71,7 @@
 .nl-field ul {
 	position: absolute;
 	visibility: hidden;
-	background: #76C3BD;
+	background: rgb(30, 34, 34);
 	left: -0.5em;
 	top: 50%;
 	font-size: 80%;
@@ -96,7 +96,7 @@
 }
 
 .nl-field ul li {
-	color: #fff;
+	color: rgb(158, 58, 58);
 	position: relative;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .nl-dd ul li.nl-dd-checked {
-	color: #478982;
+	color: #e5eeed;
 }
 
 .no-touch .nl-dd ul li:hover {
@@ -115,7 +115,7 @@
 }
 
 .no-touch .nl-dd ul li:hover:active {
-	color: #478982;
+	color: #d6e6e4;
 }
 
 /* icons for some elements */
