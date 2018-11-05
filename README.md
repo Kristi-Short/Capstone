@@ -1,4 +1,4 @@
-# Doggo & Pupper App
+
 
 A website application that helps user to find dog-friendly places along with the weather. The app was built with Javascript, jQuery, HTML, CSS; and incorporates Google Places API as well as OpenWeatherMap API. 
 
@@ -20,7 +20,7 @@ Create your Firebase project from the Firebase console at https://console.fireba
 On your local directory, clone the Doggo & Pupper repository by running :
 
 ```
-git clone https://github.com/thegirlfromipanema/dog_friendly_places_finder
+
 ```
 
 then, initialize the Firebase by running :
@@ -76,11 +76,6 @@ firebase serve
 - For relevancy and brevity, I only retrieve some information from the APIs. For Google Places, the app pulls up the place's name, address, rating and opening hours status (open / closed). As for the OpenWeatherMap, the app retrieves only the temperature in the searched city and the weather description (e.g. the sky is clear, of it there are few clouds or broken clouds, etc). For better and more attractive UX, each weather description will also have its animated visual representation. 
 
 
-## Host
-
-Visit the deployed project here :
-
-https://doggopupper-2608a.firebaseapp.com/
 
 ## Features
 
@@ -103,6 +98,5 @@ https://doggopupper-2608a.firebaseapp.com/
 
 ## Designer & Developer
 
-[Maya Novarini](https://github.com/thegirlfromipanema?tab=repositories)
+[Maya Novarini]
 
-Visit my [portfolio](http://mayanovarini.com)
