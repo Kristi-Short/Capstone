@@ -26,20 +26,20 @@ function initMap() {
 
 	$('#animated-text').hide();
 
-	var sf = {lat: 37.759621, lng: -122.4290925};
+	var sea = {lat: 47.6062, lng: -122.3321};
 	var map = new google.maps.Map(document.getElementById('map'), {
-		center: sf,
+		center: sea,
 		zoom: 13
 	});
 
 	var request = {
-		location: sf,
+		location: sea,
 		radius: '10000',
 		query: typeSearch.query,
 		type: typeSearch.type
 	};
 
-	getWeather("San Francisco, CA");
+	getWeather("Seattle, WA");
 
 	var service = new google.maps.places.PlacesService(map);
 	service.textSearch(request, callback);
