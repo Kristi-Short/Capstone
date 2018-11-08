@@ -31,7 +31,7 @@
 	background: transparent;
 	font-family: inherit;
 	font-size: inherit;
-	color: inherit;
+	color:inherit;
 	font-weight: inherit;
 	line-height: inherit;
 	display: inline-block;
@@ -149,7 +149,7 @@
 	width: 100%;
 	padding: 0.2em 2em 0.2em 0.5em;
 	border-bottom: none;
-	color: #fff;
+	color: rgb(205, 207, 233);
 }
 
 .nl-form .nl-field-go {
@@ -158,7 +158,7 @@
 	top: 0;
 	height: 100%;
 	cursor: pointer;
-	background: rgba(120, 129, 114, 0.1);
+	background: rgba(205, 207, 233,);
 	width: 1.8em;
 	text-align: center;
 	color: transparent;
@@ -180,7 +180,7 @@ input::-webkit-input-placeholder {
 
 input:active::-webkit-input-placeholder ,
 input:focus::-webkit-input-placeholder {
-	color: rgba(255,255,255,0.2);
+	color: rgba(241, 234, 234, 0.2);
 }
 
 input::-moz-placeholder {
@@ -207,12 +207,12 @@ input:focus::-ms-input-placeholder {
 	font-style: italic;
 	font-weight: 400;
 	padding: 0.4em 1em;
-	color: rgba(0,0,0,0.2);
+	color: rgba(205, 207, 233);
 	border-top: 1px dashed rgba(255,255,255,0.7);
 }
 
 .nl-ti-text ul li.nl-ti-example em {
-	color: #fff
+	color: rgb(247, 240, 240)
 }
 
 /* submit button */
@@ -226,7 +226,7 @@ input:focus::-ms-input-placeholder {
 	text-transform: uppercase;
 	cursor: pointer;
 	position: relative;
-	background: #c1bf17;
+	background: #7983b1;
 	color: #fff;
 	padding: 0 1em 0 0;
 	font-size: 40%;
@@ -240,7 +240,7 @@ input:focus::-ms-input-placeholder {
 	float: left;
 	padding: 0 0.7em;
 	margin: 0 0.8em 0 0;
-	background: #999712;
+	background: #f5f5f8;
 	font-family: 'FontAwesome';
 }
 
