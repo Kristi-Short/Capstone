@@ -18,8 +18,8 @@ var illustrations = {
 
 function getWeather(query) {
 	var api = "https://api.openweathermap.org/data/2.5/weather?q=";
-	var apiKey = "&appid=b3554b3ceaa4a5a7d8af7e151bbec70c";
-	var unit = "&units=metric"
+	var apiKey = "&appid=10ece012aff6a6a253f7fe2988ca3c54";
+	var unit = "&units=Imperial"
 
 	var url = api + query + unit + apiKey;
 
@@ -29,7 +29,7 @@ function getWeather(query) {
 
 		$('#weather-image').attr("src", pic);
 
-		$('#weather-display').html("It is now " + weather.main.temp + "&#8451; with " + status + " in " + query.split(',')[0]);
+		$('#weather-display').html("It is now " + weather.main.temp + "&#8457; with " + status + " in " + query.split(',')[0]);
 	});
 }
 

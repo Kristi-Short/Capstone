@@ -96,7 +96,7 @@ body {
 }
 
 #burger:hover {
-	color: grey;
+	color: rgb(189, 184, 184);
 }
 
 section header {
@@ -339,7 +339,7 @@ a:active {
 }
 
 #add-location-sidebar {
-  background: #c1bf17;
+  background: #707072;
   color: white;
   width: 16%;
   height: 42px;
@@ -383,5 +383,5 @@ a:active {
           transform: translateX(-100px) skewX(-15deg);
 }
 #add-location-sidebar:hover {
-  background: grey;
+  background: #f08fb7;
 }
