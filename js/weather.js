@@ -1,19 +1,15 @@
 var illustrations = {
-						"broken clouds" : "https://s26.postimg.org/svp1wpzd5/cloudy_6.png",
-						"scattered clouds" : "https://s26.postimg.org/o9wkbtsuh/clouds_2.png",
-						"few clouds" : "https://s26.postimg.org/6xw7qdzd5/cloudy_5.png",
-						"light rain" : "https://s26.postimg.org/xk8ofd3k9/rain_1.png",
-						"moderate rain" : "https://s26.postimg.org/70g3d830p/storm_1.png",
-						"heavy intensity rain" : "https://s26.postimg.org/mafykeyix/umbrellas_1.png",
-						"very heavy rain" : "https://s26.postimg.org/5nyebc5l5/umbrella_1.png",
-						"overcast clouds" : "https://s26.postimg.org/jj1a7jpe1/clouds_3.png",
-						"clear sky" : "https://s26.postimg.org/655pf9qvd/parachute.png",
-						"snow" : "https://s26.postimg.org/cv4oky5vt/snow_2.png",
-						"light snow" : "https://s26.postimg.org/xtauj15qh/snow_3.png",
-						"mist" : "https://s26.postimg.org/ulpnrpavd/mist_1.png",
-						"haze" : "https://s26.postimg.org/nfa0pskzt/fog_1.png",
-						"fog" : "https://s26.postimg.org/amhbc4k09/cloudy_3.png",
-						"thunderstorm" : "https://s26.postimg.org/3kkcg7qrt/storm_2.png"
+						"broken clouds" : "http://openweathermap.org/img/w/04d.png",
+						"scattered clouds" : "http://openweathermap.org/img/w/03d.png",
+						"few clouds" : "http://openweathermap.org/img/w/02d.png",
+						"light rain" : "http://openweathermap.org/img/w/10d.png",
+						"moderate rain" : "http://openweathermap.org/img/w/10d.png",
+						"very heavy rain" : "http://openweathermap.org/img/w/10d.png",
+						"overcast clouds" : "http://openweathermap.org/img/w/04d.png",
+						"clear sky" : "http://openweathermap.org/img/w/01d.png",
+						"snow" : "http://openweathermap.org/img/w/13d.png",
+						"light snow" : "http://openweathermap.org/img/w/13d.png",
+						"thunderstorm" : "http://openweathermap.org/img/w/11d.png"
 					};
 
 function getWeather(query) {
