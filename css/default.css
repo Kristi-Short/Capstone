@@ -10,7 +10,7 @@ body {
 	margin: 0px;
 	font-family: 'Nixie One', cursive;
 	text-align: center;
-	color: black;
+	color: rgb(12, 11, 11);
 	background: #fff;
 	font-weight: 300;
 	overflow-x: hidden;
@@ -47,7 +47,7 @@ body {
     background-color: #f8fcfa;
     overflow-x: hidden;
     transition: 0.5s;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 5px rgba(7, 7, 7, 0.3);
     position: relative;
 }
 
@@ -236,7 +236,7 @@ a {
 
 a:hover,
 a:active {
-	color: #333;
+	color: rgb(138, 140, 216);
 }
 
 /* Header Style */
