@@ -171,10 +171,10 @@ section header {
 	color:#686863;
 	float:right;
 	font-family: 'Raleway', sans-serif;
-	padding-right: 1em;
-	font-size:20px;
+	padding-right: 8em;
+	font-size:18px;
 	z-index: 1;
-	margin-top: .8em;
+	margin-top: 0.0em;
 }
 
 #back-to-top:hover {
@@ -383,5 +383,5 @@ a:active {
           transform: translateX(-100px) skewX(-15deg);
 }
 #add-location-sidebar:hover {
-  background: rgb(147,219,216);
+  background:rgb(221, 165, 80);
 }
