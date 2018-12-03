@@ -152,7 +152,7 @@ function initMap() {
 		var placeLoc = place.geometry.location;
 		var marker = new google.maps.Marker({
 			animation:google.maps.Animation.BOUNCE,
-			icon: "https://s26.postimg.org/6zqv8ms95/Webp.net-resizeimage_1.png",
+			icon: "",
 			map: map,
 			position: place.geometry.location
 		});
